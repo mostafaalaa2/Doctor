@@ -1,0 +1,151 @@
+body{
+    font-family: cursive;
+}
+/* start header section */
+header{
+    background-image: url(../img/download.jpg);
+    background-size: cover;
+    height:650px;
+}
+.box-header{
+    background-color: #62a48c;
+    height: 400px;
+    border-radius: 30px;
+    margin-top: 5%;
+    margin-left:9% ;
+     max-width: 42%;
+}
+.box-header h2{
+    font-size: 42px;
+    padding:30px ;
+    color: #fff;
+    font-weight: 300;
+    font-family: cursive;
+    line-height: 1.5;
+    padding-top: 50px;
+}
+@media only screen and (max-width:768px) {
+    .box-header h2{
+     font-size: 25px;
+    }
+}
+/* end header section */
+
+/* start navbar section */
+nav{
+    width: 60%;
+    margin: auto;
+}
+.nav-link{
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-family: cursive;
+}
+nav img{
+    width: 133px;
+    height: 93px;
+}
+@media only screen and (max-width:768px) {
+    nav{
+        width: 194px;
+    }
+}
+/* end navbar section */
+
+/* start clinic section */
+.clinic{
+    background-color: #f7f7f7;
+}
+.clinic img{
+    width: 80%;
+}
+.clinic hr{
+    width: 180px;
+    height: 3px;
+    background-color: #e98317;
+    margin-bottom: 30px;
+}
+.clinic .col-md-12 h2{
+    font-size: 40px;
+    color: #074d4c;
+    font-weight: 300;
+    word-spacing: -5px;
+    letter-spacing: 2px;
+}
+.clinic .col-md-6 h2{
+    color: #439da5;
+}
+@media only screen and (max-width:768px){
+    .clinic img{
+        width: 100%;
+    }
+}
+/* end clinic section */
+/* start touch section */
+.touch{
+        background-image: url(../img/Path\ 62.png) , url(../img/i-love-my-job-so-much_329181-2178.png);
+        background-size: cover;
+}  
+.bg-light{
+        border-radius: 20px;
+        padding: 30px;
+    }
+    .bg-light h3{
+        font-size: 25px;
+        color: #439DA5;
+    } 
+    @media only screen and (max-width:768px){
+        .touch {
+            height: auto;
+            padding-bottom: 50px;
+        }
+        .touch h2{
+            padding-top: 70px;
+        }
+    }
+/* end touch section */
+/* start coment section */
+.coment{
+    height: 150px;
+}
+.coment img{
+    width: 200px;
+}
+@media only screen and (max-width:768px){
+    .coment{
+        height: 132px;
+    }
+    .coment img{
+        width: 100px;
+    }
+}
+/* end coment section */
+/* start footer section */
+.footer{
+    background-color: #0f7B65;
+    height: 350px;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+}
+.footer .col-md-2{
+    padding-top: 50px;
+}
+.footer h3{
+    color: #F48E7F;
+}
+.footer ul{
+    padding-top: 10px;
+    list-style: none;
+    line-height: 3;
+}
+.footer .col-md-6{
+    padding-top: 30px;
+}
+@media only screen and (max-width:768px){
+    .footer{
+        height: 1000px;
+        border-top-left-radius: 120px;
+        border-top-right-radius: 120px;
+    }
+}
+/* end footer section */
